@@ -1,0 +1,192 @@
+/***************WIDTHS OF EACH SECTION**************/
+.container{
+    max-width:960px;
+    
+}
+#aside {
+    max-width: 270px;
+
+}
+
+#article{
+    max-width: 650px;
+}
+
+/*************************IMAGES*********************/
+
+.thumbnail1 {
+    height: 50px;
+    width: 50px;
+}
+
+#stackImg{
+    height:45px;
+    width:45px;
+
+}
+
+#profilePic{
+    height: 120px;
+    width: 120px;
+
+    margin: 6px 18px 7px 1px;
+
+}
+/*********************NAVIGATION BAR****************/
+.navbar-default{
+    background: #ffffff;
+    height: 75px;
+    border-bottom: 2px solid rgb(216, 212, 212);
+}
+
+.nav{
+    padding:25px;
+    font-size: 17px;
+    color: #ccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight:bold;
+}
+#navigation a:not(:first-child):before {
+    content: " | ";
+}
+#navigation div a {
+    text-decoration: none;
+    color: #a29b9b;
+    
+}
+
+.navbar-brand {
+    height: 72px;
+    padding: 15px 15px;
+    font-size: 23px;
+    line-height: 43px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    background: #4aaaa5;
+}
+
+.container-fluid{
+    max-width:960px;
+}
+/**************** STICKY FOOTER *************/
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    height: 60px;
+    line-height: 60px;
+    background: #666666;
+     border-top: 6px solid #4aaaa5;
+    text-align: center;
+    color: #d3c7c7;
+    font-size: 13px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+/*************************SUBHEADING FONT COLOR*************************/
+  h3, h2 {
+    color: #4aaaa5;
+}
+
+#content p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+    color: #777;
+    line-height: 30px;
+    font-size:16px;
+}
+
+/*************************BUTTONS**************************************/
+.btn-primary {
+    color: #fff;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+.btn{
+    font-size: 18px;
+}
+/**********************CONTACT FORM***********************************/
+
+
+div#contact {
+    padding: 16px;
+    font-weight: normal;
+    /* font-size: 15px; */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #878a8b;
+}
+
+/*********************PORTFOLIO**************************************/
+#aside{
+    max-width:270px;
+     
+ }
+ #article{
+     max-width:650px;
+     
+ }
+ .container{
+     max-width:960px;
+ }
+
+ img.portfolioImg {
+    height: auto !important;
+    width: 100% !important;
+    /* position: relative; */
+}
+
+/* td {
+    padding: 20px;
+    position: relative; 
+} */
+
+#article .panel-body {
+    padding: 20px;
+}
+
+/*@media screen and (max-width: 768px) {
+ img.portfolioImg{
+      width: 350px;
+      height:300px;
+    }
+ .projectName{
+     width:350px;
+ }   
+  }*/
+.portfolioData{
+    padding: 18px;
+    position:relative;
+
+}
+.projectName {
+    position: absolute;
+    background-color: #4aaaa5;
+    line-height: 45px;
+    bottom: 38px;
+    min-width: 263px;
+    font-size: 18px;
+    text-align: center;
+    color: #efeaea;
+}
+/*****************Navigation vertical bar*********/
+
+#navigation a:not(:first-child):before {
+    content: " | ";
+}
+  
